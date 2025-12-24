@@ -1,3 +1,6 @@
+const searchParams = new URLSearchParams(window.location.search);
+const kraken = searchParams.get("kraken");
+// "1"
 window.nzxt.v1.height;
 //640x640
 const kraken = window.location.search.includes("kraken=1");
