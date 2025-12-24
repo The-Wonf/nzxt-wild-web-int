@@ -4,4 +4,7 @@ A web integration for nzxt kraken elite used to display various monster hunter g
 Private project, use it if you want but don't reupload it. 
 Images/sound come from various artist
 
-Font maded by Mitsarugi
+
+Font made by Mitsarugi ❤️
+Images/gif made by Sovanjedi ❤️
+Go support them !
