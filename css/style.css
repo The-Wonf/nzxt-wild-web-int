@@ -2,6 +2,8 @@
 @font-face {
     font-family: 'Monster_Hunter_Font';
     src: url('../font/Monster_hunter.ttf');
+    font-family: 'Hexenkotel_Font';
+    src: url('../font/Hexenkotel.ttf');
 }
 * {
     margin: 0;
@@ -31,10 +33,6 @@ body {
 }
 
 .pc_data {
-  font-family: 'Monster_Hunter_Font';
-}
-
-.pc_data {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,12 +45,14 @@ body {
 }
 
 .pc_data h1 {
+    font-family: 'Monster_Hunter_Font';
     font-size: 10vw; 
     text-transform: uppercase;
     color: white;
 }
 
 .pc_data p {
+    font-family: 'Hexenkotel';
     margin: 0;
     font-size: 18.75vw; /* 120 */
     color: white;
