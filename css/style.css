@@ -2,9 +2,12 @@
 @font-face {
     font-family: 'Monster_Hunter_Font';
     src: url('../font/Monster_hunter.ttf');
+}
+@font-face {
     font-family: 'Hexenkotel_Font';
     src: url('../font/Hexenkotel.ttf');
 }
+
 * {
     margin: 0;
     padding: 0;
