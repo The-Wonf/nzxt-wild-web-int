@@ -1,11 +1,60 @@
 
-body {
-  background-color: black;
-  color: white;
-  font-family: Arial;
-  text-align: center;
+@font-face {
+    font-family: 'Monster_Hunter_Font';
+    src: url('../font/Monster_hunter.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-  font-size: 40px;
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'exocet-light', sans-serif;
 }
+
+.container {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+#Lagiacrus {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pc_data {
+  font-family: 'Monster_Hunter_Font';
+}
+
+.pc_data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pc_data h1 {
+    font-size: 10vw; 
+    text-transform: uppercase;
+    color: white;
+}
+
+.pc_data p {
+    margin: 0;
+    font-size: 18.75vw; /* 120 */
+    color: white;
+}
+
